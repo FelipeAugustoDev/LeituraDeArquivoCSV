@@ -103,7 +103,10 @@ namespace LeituraDeArquivoCSV
             base.salvarArquivo("");
         }
 
-
+        /// <summary>
+        ///  Salvando o arquivo com informacoes e quebras de linha
+        /// </summary>
+        /// <param name=".txt"> NOVO LOG</param>
         protected override void salvarArquivo()
         {
             SaveFileDialog salvamento = new SaveFileDialog(); //Cria um salvamento do arquivo.
